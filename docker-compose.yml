@@ -28,7 +28,7 @@ services:
     stdin_open: true
     tty: true
 
- app-school-frontend:
+  app-school-frontend:
     depends_on:
       - app-schollback
     image: mouradhassini/student-front-image:1.0.0

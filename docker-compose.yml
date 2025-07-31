@@ -35,6 +35,6 @@ services:
     #build : ./
     restart: on-failure
     ports:
-      - 8085:8085
+      - 8585:85
 volumes:
   db :
